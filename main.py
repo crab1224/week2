@@ -29,8 +29,7 @@ try:
             json_dump += '    },\n'
             
         json_dump = json_dump.strip(',\n') + '\n}'
-
-    f2.write(json_dump)
+        f2.write(json_dump)
 
 
 except Exception as e:
